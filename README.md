@@ -44,3 +44,12 @@ Improving the experience of Regular users could significantly improve overall NP
 - SQL
 - Python (Jupyter Notebook)
 - Data analysis and visualization
+## Example SQL Logic
+
+```sql structure
+SELECT
+  DATE_TRUNC(created_at, MONTH) AS cohort_month,
+  COUNT(user_id) AS users_in_cohort
+FROM users
+GROUP BY cohort_month
+ORDER BY cohort_month;
