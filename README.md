@@ -5,7 +5,7 @@ NPS cohort and segment analysis using SQL and product analytics concepts
 Analyze Net Promoter Score (NPS) one month after signup to understand trends by cohort and user segment.
 
 ## Dataset
-User signup data and NPS survey responses.
+Anonymized CRM and survey data used for analytical practice.
 ## Dataset Structure
 
 The analysis is based on two main tables:
